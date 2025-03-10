@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Foto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="#">SF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Katalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Print</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Booking</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn-light px-4 py-2 fw-medium ms-auto">
+        Daftar
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white d-flex align-items-center" style="background: url('img/anying.jpg'); background-size: cover; min-height: 557px;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold mb-4">Studio Foto</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card bg-light bg-opacity-75 p-3 rounded-4">
+            <div class="d-flex">
+              <input type="text" class="form-control border-0 me-2" placeholder="Search..." />
+              <button class="btn btn-warning px-5">Search</button>
+            </div>
+          </div>
+          <p class="mt-4">Cari Jenis foto sesuai kebutuhan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="display-5 text-secondary fw-semibold mb-5">Tentang</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <div class="position-relative">
+            <img src="img/owl.jpg" alt="About" class="img-fluid rounded-4" />
+            <div class="product-overlay rounded-4"></div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <h3 class="text-warning fs-2 mb-3">Studio Foto</h3>
+          <p class="fs-5 fw-light">
+            Studio Foto adalah usaha yang bergerak dibidang media/studio foto yang menyajikan berbagai kebutuhan untuk mengabadikan momen bersama keluarga, teman, dalam acara penting, atau kebutuhan konsumen. dengan berbagai jenis foto yang menyesuaikan perubahan jaman digital, darri kegiatan outdor, semi outdor, indoor foto katalog, grup, keluarga, prewedding, wedding dll. potret dua sudut telah bergerak dari tahun 2018 sampai saat ini.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-5">
+        <h2 class="display-5 text-secondary fw-semibold mb-0">Produk</h2>
+        <a href="#" class="text-warning text-decoration-none fs-4">Show All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Travel" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Travel /Outdoor</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Studio" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Studio</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Katalog" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Katalog</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Moment" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Moment</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-5">
+        <h2 class="display-5 text-secondary fw-semibold mb-0">Team</h2>
+        <a href="#" class="text-warning text-decoration-none fs-4">Show All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Founder" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Founder</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Photographer" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Photographer</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Videographer" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Videographer</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="CTO" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">CTOSince there is no selected code, I will provide a general improvement to the existing code. Here's a modified version of the HTML structure with some improvements:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Foto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="#">SF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Katalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Print</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-semibold" href="#">Booking</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn-light px-4 py-2 fw-medium ms-auto">
+        Daftar
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white d-flex align-items-center" style="background: url('img/anying.jpg'); background-size: cover; min-height: 557px;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold mb-4">Studio Foto</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card bg-light bg-opacity-75 p-3 rounded-4">
+            <div class="d-flex">
+              <input type="text" class="form-control border-0 me-2" placeholder="Search..." />
+              <button class="btn btn-warning px-5">Search</button>
+            </div>
+          </div>
+          <p class="mt-4">Cari Jenis foto sesuai kebutuhan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="display-5 text-secondary fw-semibold mb-5">Tentang</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <div class="position-relative">
+            <img src="img/owl.jpg" alt="About" class="img-fluid rounded-4" />
+            <div class="product-overlay rounded-4"></div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <h3 class="text-warning fs-2 mb-3">Studio Foto</h3>
+          <p class="fs-5 fw-light">
+            Studio Foto adalah usaha yang bergerak dibidang media/studio foto yang menyajikan berbagai kebutuhan untuk mengabadikan momen bersama keluarga, teman, dalam acara penting, atau kebutuhan konsumen. dengan berbagai jenis foto yang menyesuaikan perubahan jaman digital, darri kegiatan outdor, semi outdor, indoor foto katalog, grup, keluarga, prewedding, wedding dll. potret dua sudut telah bergerak dari tahun 2018 sampai saat ini.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-5">
+        <h2 class="display-5 text-secondary fw-semibold mb-0">Produk</h2>
+        <a href="#" class="text-warning text-decoration-none fs-4">Show All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Travel" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Travel /Outdoor</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Studio" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Studio</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Katalog" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Katalog</h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/anying.jpg" alt="Moment" class="img-fluid w-100" style="height: 188px; object-fit: cover" />
+            <div class="product-overlay"></div>
+            <h3 class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold">Moment</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-5">
+        <h2 class="display-5 text-secondary fw-semibold mb-0">Team</h2>
+        <a href="#" class="text-warning text-decoration-none fs-4">Show All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Founder" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Founder</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Photographer" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Photographer</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="Videographer" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">Videographer</h4>
+              <a href="#" class="text-warning text-decoration-none">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 rounded-4 shadow-sm">
+            <img src="img/anying.jpg" alt="CTO" class="img-fluid w-100" style="height: 197px; object-fit: cover" />
+            <div class="p-3">
+              <h4 class="fs-5 text-secondary mb-2">CTO
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Foto</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold" href="#">SF</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold" href="#">Katalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold" href="#">Print</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold" href="#">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold" href="#">Booking</a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn btn-light px-4 py-2 fw-medium ms-auto">
+          Daftar
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section text-center text-white d-flex align-items-center"
+      style="
+        background: url('img/anying.jpg');
+        background-size: cover;
+        min-height: 557px;
+      "
+    >
+      <div class="container">
+        <h1 class="display-4 fw-semibold mb-4">Studio Foto</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card bg-light bg-opacity-75 p-3 rounded-4">
+              <div class="d-flex">
+                <input
+                  type="text"
+                  class="form-control border-0 me-2"
+                  placeholder="Search..."
+                />
+                <button class="btn btn-warning px-5">Search</button>
+              </div>
+            </div>
+            <p class="mt-4">Cari Jenis foto sesuai kebutuhan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="display-5 text-secondary fw-semibold mb-5">Tentang</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="position-relative">
+              <img src="img/owl.jpg" alt="About" class="img-fluid rounded-4" />
+              <div class="product-overlay rounded-4"></div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <h3 class="text-warning fs-2 mb-3">Studio Foto</h3>
+            <p class="fs-5 fw-light">
+              Studio Foto adalah usaha yang bergerak dibidang media/studio foto
+              yang menyajikan berbagai kebutuhan untuk mengabadikan momen
+              bersama keluarga, teman, dalam acara penting, atau kebutuhan
+              konsumen. dengan berbagai jenis foto yang menyesuaikan perubahan
+              jaman digital, darri kegiatan outdor, semi outdor, indoor foto
+              katalog, grup, keluarga, prewedding, wedding dll. potret dua sudut
+              telah bergerak dari tahun 2018 sampai saat ini.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+          <h2 class="display-5 text-secondary fw-semibold mb-0">Produk</h2>
+          <a href="#" class="text-warning text-decoration-none fs-4"
+            >Show All</a
+          >
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card border-0 rounded-4 overflow-hidden">
+              <img
+                src="img/anying.jpg"
+                alt="Travel"
+                class="img-fluid w-100"
+                style="height: 188px; object-fit: cover"
+              />
+              <div class="product-overlay"></div>
+              <h3
+                class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold"
+              >
+                Travel /Outdoor
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 rounded-4 overflow-hidden">
+              <img
+                src="img/anying.jpg"
+                alt="Studio"
+                class="img-fluid w-100"
+                style="height: 188px; object-fit: cover"
+              />
+              <div class="product-overlay"></div>
+              <h3
+                class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold"
+              >
+                Studio
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 rounded-4 overflow-hidden">
+              <img
+                src="img/anying.jpg"
+                alt="Katalog"
+                class="img-fluid w-100"
+                style="height: 188px; object-fit: cover"
+              />
+              <div class="product-overlay"></div>
+              <h3
+                class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold"
+              >
+                Katalog
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 rounded-4 overflow-hidden">
+              <img
+                src="img/anying.jpg"
+                alt="Moment"
+                class="img-fluid w-100"
+                style="height: 188px; object-fit: cover"
+              />
+              <div class="product-overlay"></div>
+              <h3
+                class="position-absolute bottom-0 start-0 text-white p-4 fs-2 fw-semibold"
+              >
+                Moment
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+          <h2 class="display-5 text-secondary fw-semibold mb-0">Team</h2>
+          <a href="#" class="text-warning text-decoration-none fs-4"
+            >Show All</a
+          >
+        </div>
+        <div class="row g-4">
+          <div class="col">
+            <div class="card border-0 rounded-4 shadow-sm">
+              <img
+                src="img/anying.jpg"
+                alt="Founder"
+                class="img-fluid w-100"
+                style="height: 197px; object-fit: cover"
+              />
+              <div class="p-3">
+                <h4 class="fs-5 text-secondary mb-2">Founder</h4>
+                <a href="#" class="text-warning text-decoration-none"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 rounded-4 shadow-sm">
+              <img
+                src="img/anying.jpg"
+                alt="Photographer"
+                class="img-fluid w-100"
+                style="height: 197px; object-fit: cover"
+              />
+              <div class="p-3">
+                <h4 class="fs-5 text-secondary mb-2">Photographer</h4>
+                <a href="#" class="text-warning text-decoration-none"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 rounded-4 shadow-sm">
+              <img
+                src="img/anying.jpg"
+                alt="Videographer"
+                class="img-fluid w-100"
+                style="height: 197px; object-fit: cover"
+              />
+              <div class="p-3">
+                <h4 class="fs-5 text-secondary mb-2">Videographer</h4>
+                <a href="#" class="text-warning text-decoration-none"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 rounded-4 shadow-sm">
+              <img
+                src="img/anying.jpg"
+                alt="CTO"
+                class="img-fluid w-100"
+                style="height: 197px; object-fit: cover"
+              />
+              <div class="p-3">
+                <h4 class="fs-5 text-secondary mb-2">CTO</h4>
+                <a href="#" class="text-warning text-decoration-none"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 rounded-4 shadow-sm">
+              <img
+                src="img/anying.jpg"
+                alt="Creative"
+                class="img-fluid w-100"
+                style="height: 197px; object-fit: cover"
+              />
+              <div class="p-3">
+                <h4 class="fs-5 text-secondary mb-2">Creative</h4>
+                <a href="#" class="text-warning text-decoration-none"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="bg-secondary text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <h2 class="fs-1 fw-bold text-white mb-3">Studio Foto</h2>
+              <p class="fs-5">
+                Abadikan moment mu dan percantik bisnismu dengan kami
+              </p>
+              <p class="fs-5">Email: studiofoto@gmail.com</p>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-md-4">
+                  <h5 class="text-warning fw-semibold mb-4">Service</h5>
+                  <div class="d-flex flex-column">
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Notifications</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Billing</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Profile</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <h5 class="text-warning fw-semibold mb-4">Company</h5>
+                  <div class="d-flex flex-column">
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Terms</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Privacy</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Support</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <h5 class="text-warning fw-semibold mb-4">About</h5>
+                  <div class="d-flex flex-column">
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Services</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Contact</a
+                    >
+                    <a href="#" class="text-white text-decoration-none mb-2"
+                      >Careers</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-light py-3">
+        <div class="container">
+          <p class="text-secondary mb-0 text-center">
+            © 2025 Potret Dua Rana. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
