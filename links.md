@@ -1,0 +1,1 @@
+https://www.notion.so/smekta-luna-198/Smekta-Cloud-Engineer-Bootcamp-2d17fac33ccf80a48dfaf11d3715e845?source=copy_link
